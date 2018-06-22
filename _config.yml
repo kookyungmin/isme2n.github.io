@@ -12,8 +12,7 @@ url:                 https://kookyungmin.github.io
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
 baseurl:             ""
 
-# A very short description of your page
-tagline:             배움은 의무도 생존도 아니다
+
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
