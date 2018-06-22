@@ -5,9 +5,11 @@ menu: true
 order: 10
 ---
 
-## Introduce
+```
+공부하면서 취미로 하는 블로그입니다~!
 
-<br>
+제 블로그로 인해 도움이 되는 사람이 있으면 좋겠네요!
+```
 <br>
 
 residence:Seoul
