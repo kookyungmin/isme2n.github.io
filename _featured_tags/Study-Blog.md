@@ -1,5 +1,5 @@
 ---
-layout: tag-blog
+layout: list
 title: Blog
 slug: blog
 category: Study
