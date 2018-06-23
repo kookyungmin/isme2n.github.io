@@ -6,5 +6,5 @@ category: IoT_Curriculum
 menu: false
 order: 3
 description: >
-  xhtml에 대한 포스팅
+  XHTML에 대한 포스팅
 ---
