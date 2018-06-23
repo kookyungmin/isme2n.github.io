@@ -3,6 +3,6 @@ layout: tag-blog
 title: Blog
 slug: blog
 category: Study
-menu: false
+menu: true
 order: 1
 ---
