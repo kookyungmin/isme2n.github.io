@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: list
 title: basis
 slug: basis
 category: IoT_Curriculum
