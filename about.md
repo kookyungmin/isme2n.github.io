@@ -26,3 +26,5 @@ minor: computer science at UOS
 email: rudals4549@naver.com
 
 자격증: 정보처리기사
+
+기타 : NCS 과정 "자바기반의 사물인터넷 개발자 " 과정 이수 중 
