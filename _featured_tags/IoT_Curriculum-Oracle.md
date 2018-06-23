@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: list
 title: Oracle
 slug: Oracle
 category: IoT_Curriculum
