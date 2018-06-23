@@ -1,8 +1,10 @@
 ---
-layout: tag-blog
+layout: list
 title: C++
-slug: c++
+slug: C++
 category: Study
 menu: false
 order: 4
+description: >
+  C++에 대한 포스팅
 ---
