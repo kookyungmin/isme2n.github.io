@@ -1,5 +1,5 @@
 ---
-layout: tag-blog
+layout: 
 title: Oracle
 slug: Oracle
 category: IoT_Curriculum
