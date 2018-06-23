@@ -1,7 +1,7 @@
 ---
 layout: list
 title: XHTML
-slug: xhtml
+slug: XHTML
 category: IoT_Curriculum
 menu: false
 order: 3
