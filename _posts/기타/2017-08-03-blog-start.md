@@ -10,7 +10,7 @@ date:   2017-08-03 04:59:00 -0500
 
 categories: Study
 
-tags: Blog
+tags: blog
 
 ---
 
