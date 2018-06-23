@@ -20,7 +20,7 @@ categories: Study
 
 ![image](/image/test.jpg)
 
-``` C++
+``` cpp
 #include<stdio.h>
 int main(void)
 {
