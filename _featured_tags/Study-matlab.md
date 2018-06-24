@@ -6,5 +6,5 @@ category: Study
 menu: false
 order: 5
 description: >
-  matlab에 대한 포스팅
+  [참고 문헌]'Matlab활용 Essential 수치해석(김준석 지음)'
 ---
