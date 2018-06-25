@@ -6,5 +6,5 @@ category: IoT_Curriculum
 menu: false
 order: 3
 description: >
-  java에 대한 포스팅
+  [참고문헌] 자바의정석 (남궁성 지음)
 ---
