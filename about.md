@@ -16,6 +16,8 @@ order: 10
 
 <br>
 
+name : 구경민
+
 residence:Seoul
 
 age: 26
