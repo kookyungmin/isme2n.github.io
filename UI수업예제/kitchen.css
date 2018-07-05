@@ -1,0 +1,35 @@
+body{background: url(dark-wood.png);}
+.wrap{width:940px; margin: 20px auto 20px auto; border:2px solid #000; 
+	background: #fff;}
+.head-main{height:130px; background: url(header.jpg);} 
+.head-main h1{position:relative; left: -9999px;}
+.nav{padding: 5px 0px 5px 30px; background: #aeaca8;}
+.nav ul{overflow:hidden;}
+.nav ul li{float:left; margin-right:40px; font-size:15px;}
+#black{color:#000;}
+#pink{color:#de6581; font-size:15px;}
+.nav ul li a{color:#fff; text-decoration:none;}
+.nav ul li a:hover{color:#000;}
+.content{overflow:hidden;}
+.main{width:659px; float:left;}
+.main h2{margin-top:50px; margin-bottom:5px;}
+.main h3{margin-bottom:10px;}
+.con1-img{overflow:hidden;}
+.f1{width:290px; padding:5px; margin:20px; border: 1px solid #eeeeee;
+	float:left; }
+
+.f2{width:290px; height: 220px; padding:5px; margin:20px; 
+	border: 1px solid #eeeeee; float:left;}
+.sub{width:250px; float:left; border-left:1px solid #eeeeee; 
+	padding-left:10px}	
+.sub h2{margin-top:10px; margin-bottom:5px; padding-top:30px; 
+	padding-bottom:10px;}
+.sub ul li{border-bottom:1px solid #eeeeee;}
+.sub ul li a{padding:10px; display:block; text-decoration:none;}
+.sub ul li a:hover{background: #eeeeee;}
+
+.footer{height:30px;padding:7px 0px 0px 20px; background: #aeaca8; 
+	color:#ffffff;}
+
+
+
