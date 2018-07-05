@@ -1,0 +1,16 @@
+﻿.wrap{width: 800px; margin: auto;}
+.header,.footer{background: #333; color:#fff; style:none}
+.contents{border: 5px solid #000; /* border 속성에는 세미콜론 안붙는다 */
+		padding: 15px}
+p{padding:15px; text-align:center}
+h1,.header ul,p{margin: 0; padding: 0}
+.header{overflow: hidden; padding: 15px}
+h1{float: left;}
+.header ul{float: right;}
+.header ul li{float: left; list-style: none; margin: 10px;}
+.header ul li a{color: #fff; text-decoration: none}
+.header ul li a:hover{color:orange; text-decoration: underline !important} /* important는 우선순위를 앞으로 해준다 */
+		/* .header ul li: hover a {...}  부모에게 먼저 설정후 자식을 건드리면 important 안해도 됨*/
+h3{ height: 22px; background: url(pet_bgicon.png);
+		background-repeat:no-repeat; text-indent:30px}  /* text-indent는 들여쓰기 */
+.box{ background : #eee}
