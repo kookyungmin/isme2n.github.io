@@ -28,8 +28,7 @@ section{position:relative; text-align:center;}
 	transform:translate(-50%,-50%)} /* 화면에 맞춰서 중앙에 맞춤 */
 
 
-#section2{height:100%; max-width:980px; margin:auto;padding:16px 24px;
-		margin-bottom:100px;}
+#section2{ max-width:980px; margin:auto;padding:16px 24px;}
 #art2 h2{font-size: 3vw; color:#757575; margin:10px 0;}
 #art2 img{margin:32px 0;}
 #art2 p{margin:15px 0; font-size:15px; font-style:italic; 
