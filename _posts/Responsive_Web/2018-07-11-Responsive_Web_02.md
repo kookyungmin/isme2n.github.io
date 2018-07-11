@@ -71,7 +71,7 @@ tags: responsive_web
 
 ```css
 /* 범위를 주는 다른 방법 -많이 이용- */
-/* @media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px){
 	/*1200px 이상일 때 css 코드 작성: pc용*/
 }
 
@@ -82,7 +82,6 @@ tags: responsive_web
 @media only screen and (min-width: 1200px){
 	/* 480px 이하일 때 css 코드 작성: 모바일용 */
 }
-*/
 ```
 
 <br>
