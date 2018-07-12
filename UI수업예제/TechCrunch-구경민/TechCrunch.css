@@ -1,0 +1,75 @@
+* {box-sizing: border-box;}
+body{width:100%; background: #ffffe5; font-size: 75%;}
+.wrap-bg{width:92%; background: 	#ffece5;  margin:20px 5%;
+	padding: 0 2.307692307692%; overflow:hidden;
+	font-family: "Lucida Grande", "Myriad Pro", sans-serif;}
+
+/* wrap */
+.wrap{width:73.2%; float:left; }
+/*header */
+.header{background: #e5ecff; color:#000; font-weight: bold;}
+.header h1{font-size: 3.57142857142857em; }
+.header p{font-size: 0.22em;}
+
+/* nav */
+.nav{text-align:center; }
+#nav1{background: #0000cc; }
+#nav2{background: #0000cc;}
+#nav2 li{display:inline-block; margin: 0 1.869158878505%;}
+#nav1 a,#nav2 a{display:block; color:#fff; padding:10px 5px; 
+	text-decoration:none;}
+
+
+/*content*/
+.content{overflow:hidden; background: #e5ecff;}
+#date{font-style: italic;}
+/* con1-bg */
+.con1-bg{width: 58%; background: #fff;float:left;}
+.con1{padding-left: 2.395209580838%;
+	padding-right: 3.592814371257%; padding: 6.666666666667%; }
+.con1 h2{font-size: 2em; color: #fff;background-color: #000;
+	    padding: 0.53571428571429em 3.846153846154%;
+		display: inline-block;}
+.con1 img{width:100%; }
+.con1 a{color:blue;}
+.con1 a:hover{color:skyblue;}
+/* con2-bg */
+.con2-bg{width: 42%; float:left; }
+.con2{ padding: 6.666666666667%;
+	padding-right: 2.395209580838%;
+	padding-left:3.592814371257%}
+.con2 a{color:blue;}
+.con2 a:hover{color:skyblue;}
+.con2 h3{font-size: 1.17em;}
+	
+/* wrap2 */
+.wrap2{width:24.12%; background: #fff; float:right;}
+.con3{padding: 7.272727272727%;}
+.con3 h2{font-size: 1.17em;}
+.con3 ul li a{color: blue;}
+.con3 ul li a:hover{color:skyblue;}
+.con3 figure{margin:0; padding: 6.666666666667%;}
+.con3 img{width:100%;}
+
+@media only screen and (max-width: 680px){
+	.wrap-bg{margin:0;}
+	.wrap-bg{width:100%; padding:0;}
+	.wrap{width:100%;}
+	#nav2{display:none;}
+	#nav1{width:100%; }
+	#nav1 a{padding:0.71428571428571em 0; display:block;}
+	.wrap,.wrap2,.con1-bg,.con2-bg{width:100%; float:none;}
+}
+
+@media only screen and (min-width: 680px)and (max-width:1200px){
+	#nav1{display:none;}
+	.wrap{width:63%;}
+	.wrap2{width:32%;}
+	.con1-bg,.con2-bg{width:100%; float:none;}
+	
+	
+}
+
+@media only screen and (min-width: 1200px){
+	#nav1{display:none;}
+}
