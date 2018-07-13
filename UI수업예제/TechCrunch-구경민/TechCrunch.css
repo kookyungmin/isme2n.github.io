@@ -61,7 +61,7 @@ body{width:100%; background: #ffffe5; font-size: 75%;}
 	.wrap,.wrap2,.con1-bg,.con2-bg{width:100%; float:none;}
 }
 
-@media only screen and (min-width: 768px)and (max-width:1200px){
+@media only screen and (min-width: 480px)and (max-width:1200px){
 	#nav1{display:none;}
 	.wrap{width:63%;}
 	.wrap2{width:32%;}
