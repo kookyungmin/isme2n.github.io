@@ -14,7 +14,7 @@ tags: responsive_web
 
 ---
 
-## 
+## saint
 
 <br>
 <br>
@@ -71,7 +71,7 @@ h1{float:left;}
 	.content p{display:none;}
 }
 
-@media only screen and (min-width: 480px)and (max-width:1200px){
+@media only screen and (min-width: 768px)and (max-width:1200px){
 	.content article {width:100%;}
 	.content img{width:50%; float:left;}
 	.content p{margin-left:52%;}
