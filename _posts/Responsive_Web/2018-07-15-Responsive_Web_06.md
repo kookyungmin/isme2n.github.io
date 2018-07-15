@@ -334,7 +334,7 @@ flex에 관한 좋은 사이트도 많이 있는데요~
 <br>
 <br>
 
-1. <a href="https://codepen.io/enxaneta/full/adLPwv">Flexbox playground</a>
+1.<a href="https://codepen.io/enxaneta/full/adLPwv">Flexbox playground</a>
 
 <br>
 <br>
@@ -346,7 +346,7 @@ flex에 관한 좋은 사이트도 많이 있는데요~
 <br>
 <br>
 
-2. <a href="http://flexboxfroggy.com/#ko">Flexbox Froggy</a>
+2.<a href="http://flexboxfroggy.com/#ko">Flexbox Froggy</a>
 
 <br>
 <br>
