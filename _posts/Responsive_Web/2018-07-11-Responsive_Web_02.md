@@ -39,11 +39,11 @@ tags: responsive_web
 }
 
 @media only screen and (max-width: 768px){
-	/* 1200px ~ 480px일 때 css 코드 작성: 태블릿용 */
+	/* 1200px ~ 768px일 때 css 코드 작성: 태블릿용 */
 }
 
 @media only screen and (max-width: 768px){ 
-	/* 480px 이하일 때 css 코드 작성: 모바일용 */
+	/* 768px 이하일 때 css 코드 작성: 모바일용 */
 }
 ```
 <br>
