@@ -38,11 +38,11 @@ tags: responsive_web
 	/*1200px 이상일 때 css 코드 작성: pc용*/
 }
 
-@media only screen and (max-width: 480px){
-	/* 1200px ~ 480px일 때 css 코드 작성: 태블릿용,스마트폰 */
+@media only screen and (max-width: 768px){
+	/* 1200px ~ 480px일 때 css 코드 작성: 태블릿용 */
 }
 
-@media only screen and (max-width: 480px){ 
+@media only screen and (max-width: 768px){ 
 	/* 480px 이하일 때 css 코드 작성: 모바일용 */
 }
 ```
@@ -52,12 +52,12 @@ tags: responsive_web
 
 ```css
 /* min일 때는 작은순으로 */
-@media only screen and (min-width: 480px){
-	/* 480px 이하일 때 css 코드 작성: 모바일용 */
+@media only screen and (min-width: 768px){
+	/* 768px 이하일 때 css 코드 작성: 모바일용 */
 }
 
-@media only screen and (min-width: 480px){
-	/* 1200px ~ 480px일 때 css 코드 작성: 태블릿용,스마트폰 */
+@media only screen and (min-width: 768px){
+	/* 1200px ~ 768px일 때 css 코드 작성: 태블릿용 */
 }
 
 @media only screen and (min-width: 1200px){
@@ -71,12 +71,12 @@ tags: responsive_web
 
 ```css
 /* 범위를 주는 다른 방법 -많이 이용- */
-@media only screen and (max-width: 480px){
-	/* 480px 이하일 때 css 코드 작성: 모바일용 */
+@media only screen and (max-width: 768px){
+	/* 768px 이하일 때 css 코드 작성: 모바일용 */
 }
 
-@media only screen and (min-width: 480px)and (max-width:1200px){
-	/* 1200px ~ 480px일 때 css 코드 작성: 태블릿용,스마트폰 */
+@media only screen and (min-width: 768px)and (max-width:1200px){
+	/* 1200px ~ 768px일 때 css 코드 작성: 태블릿용 */
 }
 
 @media only screen and (min-width: 1200px){
@@ -104,11 +104,11 @@ tags: responsive_web
 /* responsive1.css */
 body{background: #333;}
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 768px){
 	body{background-color: blue;}
 }
 
-@media only screen and (min-width: 480px)and (max-width:1200px){
+@media only screen and (min-width: 768px)and (max-width:1200px){
 	body{background-color: red;}
 }
 
