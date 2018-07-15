@@ -16,15 +16,17 @@ order: 10
 
 <br>
 
-name : 구경민
+이름 : 구경민
 
-residence:Seoul
+거주지: 서울
 
-age: 26
+나이 : 26
 
-major: mathematics at UOS
+대학: 서울시립대학교 졸업
 
-minor: computer science at UOS
+주전공: 수학 
+
+부전공: 컴퓨터과학 
 
 email: rudals4549@naver.com
 
