@@ -57,7 +57,7 @@ h1{float:left;}
 	border-bottom: 5px solid #000;}
 .footer{text-align:center;}
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 768px){
 	h1, .gnb{float:none;}
 	.header{text-align:center;}
 	.gnb{display:inline-block;overflow:hidden;}
@@ -71,7 +71,7 @@ h1{float:left;}
 	.content p{display:none;}
 }
 
-@media only screen and (min-width: 480px)and (max-width:1200px){
+@media only screen and (min-width: 768px)and (max-width:1200px){
 	.content article {width:100%;}
 	.content img{width:50%; float:left;}
 	.content p{margin-left:52%;}
