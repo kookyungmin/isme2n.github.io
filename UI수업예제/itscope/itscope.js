@@ -4,7 +4,7 @@ $(function(){
     
     $('.level2').stop().slideUp(500) //stop은 반복 실행하면 그만두라는 
      //현재의 level2만 slideDown
-    $(this).find('.level2').stop().slideDown(1000)
+    $(this).find('.level2').stop().slideDown(500)
     //$(this).children('.level2').slideDown()
     
     
