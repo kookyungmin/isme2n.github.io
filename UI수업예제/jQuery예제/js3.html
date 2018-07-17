@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> /* 구글 CDN 이용*/ </script> 
+	<script> 
+		$(function(){
+			$('.btn').click(function(){ // .btn을 클릭했을 때
+				$('.summary').show(1000) //.summary를 보이게 함
+			})
+			$('.pannel').mouseleave(function(){ //.pannel에서 마우스가 떨어질 때 
+				$('.summary').hide(1000) //.summary 사라지게함
+			})
+		})
+		
+		$(function(){
+			$('.btn2').click(function(){ // .btn2를 클릭했을 때
+				$('.summary2').fadeIn(1000) //.summary2를 보이게 함
+			})
+			$('.pannel2').mouseleave(function(){ // //.pannel2에서 마우스가 떨어질 때 
+				$('.summary2').fadeOut(1000) //.summary2 사라지게함
+			})
+		})
+		
+		$(function(){
+			$('.btn3').click(function(){ // .btn3를 클릭했을 때
+				$('.summary3').slideDown(1000) //.summary3를 보이게 함
+			})
+			$('.pannel3').mouseleave(function(){ // //.pannel3에서 마우스가 떨어질 때 
+				$('.summary3').slideUp(1000) //.summary3 사라지게함
+			})
+		})
+		
+	</script>
+	<style>
+		.p{width: 500px;
+			margin: auto;
+			color:#fff;
+			padding:10px;}
+		.pannel{background: #333;}
+		.pannel2{background: orange;}
+		.pannel3{background: pink;}
+		.b{cursor:pointer;
+			padding:10px;
+			border-bottom:1px solid #fff;}
+		.s{display:none;}	
+	</style>
+</head>
+<body>
+<div class="pannel p">
+	<div class="btn b">
+			Show
+	</div>
+	<div class="summary s">
+		<p>안녕하세요! 꾸리블로그입니다</p>
+		<p>함수 show와 hide 입니다.</p>
+	</div>
+</div>
+<div class="pannel2 p">
+	<div class="btn2 b">
+			Show
+	</div>
+	<div class="summary2 s">
+		<p>안녕하세요! 꾸리블로그입니다</p>
+		<p>함수 FadeIn과 FadeOut 입니다.</p>
+	</div>
+</div>
+<div class="pannel3 p">
+	<div class="btn3 b">
+			Show
+	</div>
+	<div class="summary3 s">
+		<p>안녕하세요! 꾸리블로그입니다</p>
+		<p>함수 slideDown과 slideUp 입니다.</p>
+	</div>
+</div>
+</body>
+</html>	
