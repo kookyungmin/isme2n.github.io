@@ -232,6 +232,10 @@ FLEX-DIRECTION 속성은 flex요소를 정렬할 방향을 지정하는 속성�
 <br>
 
 ```css
+.con p{
+	height:30px;
+}
+
 .container1{
 	display:flex;
 	flex-direction: row;
@@ -296,7 +300,11 @@ justify-content 속성은 가로축을 기준으로 flex 요소들을 정렬하�
 <br>
 <br>
 
-```css		
+```css	
+.con p{
+	height:30px;
+}
+
 .container1{
 	display:flex;
 	justify-content: flex-start;
@@ -363,6 +371,10 @@ align-items 속성은 세로축을 기준으로 flex 요소들을 정렬합니�
 <br>
 
 ```css
+.con p{
+	height:30px;
+}
+
 .con p:nth-child(3){
 	font-size:32px;
 }		
