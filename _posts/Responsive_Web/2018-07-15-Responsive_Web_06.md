@@ -222,7 +222,7 @@ flex-basis, flex-grow, flex-shrink 는 flex 요소의 너비에 관련된 속성
 	flex-wrap:wrap;
 }
 .container1 p{
-	flex-basis: 50%; /* 요소들의 너비를 부모의 50% */
+	flex-basis: 50%; 
 }
 
 /* flex- grow 예제 */
