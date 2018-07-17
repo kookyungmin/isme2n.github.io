@@ -1,0 +1,52 @@
+<!-- 전구 키고 끄기2-->
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> /* 구글 CDN 이용*/ </script> 
+	
+	<script> 
+		$(function(){
+			var sw=0; // 변수 선언
+			$('.btn').click(function(){
+				sw=!sw;
+				if(sw==1){
+					$('.light img').attr({'src':'pic_bulbon.gif'}) 
+					//버튼의 값을 바꿔라
+					$('.btn').text('Off')
+				}else{
+					$('.light img').attr({'src':'pic_bulboff.gif'}) 
+					//버튼의 값을 바꿔라
+					$('.btn').text('On')
+				}
+				
+			})
+			
+		})
+		
+	</script>
+	<style>
+		.pannel{width: 500px; margin:auto;
+			border:1px solid #000;
+			text-align:center}
+		
+		button{background: #333;
+			color:#fff;
+			padding:10px;
+			border:none;}
+		
+			
+	</style>
+</head>
+<body>
+<div class="pannel">
+	<div class="light">
+		<img src="pic_bulboff.gif" alt="">
+	</div>	
+		<button class="btn">On</button>
+	
+</div>
+</body>
+</html>	

@@ -1,0 +1,46 @@
+<!-- 전구 키고 끄기-->
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> /* 구글 CDN 이용*/ </script> 
+	
+	<script> 
+		$(function(){
+			$('.on').click(function(){
+				$('.light img').attr({'src':'pic_bulbon.gif'}) /* on 버튼을 누르면 img 속성을 바꿈 */
+			})
+			
+			$('.off').click(function(){
+				$('.light img').attr({'src':'pic_bulboff.gif'}) /* off 버튼을 누르면 img 속성을 바꿈 */
+			})
+		})
+		
+	</script>
+	<style>
+		.pannel{width: 500px; margin:auto;
+			border:1px solid #000;
+			text-align:center}
+		
+		button{background: #333;
+			color:#fff;
+			padding:10px;
+			border:none;}
+		
+			
+	</style>
+</head>
+<body>
+<div class="pannel">
+	<div class="light">
+		<img src="pic_bulboff.gif" alt="">
+	</div>	
+		<button class="on">On</button>
+		<button class="off">Off</button>
+	
+	
+</div>
+</body>
+</html>	
