@@ -371,10 +371,6 @@ align-items 속성은 세로축을 기준으로 flex 요소들을 정렬합니�
 <br>
 
 ```css
-.con p{
-	height:30px;
-}
-
 .con p:nth-child(3){
 	font-size:32px;
 }		
