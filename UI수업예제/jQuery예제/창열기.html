@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="reset.css">
+	
+	<style>
+	body{background: url(onepage_restaurant.jpg) no-repeat; background-size:cover;
+		font-size:50px;}
+	
+	.btn1{background: yellow; padding:10px; position:fixed;
+		left:10px;
+		top:20px;
+		cursor:pointer;}
+	.btn2{background: skyblue; padding:10px; position:fixed;
+		left:10px;
+		top:120px;
+		cursor:pointer;}
+	.btn3{background: pink; padding:10px; position:fixed;
+		left:10px;
+		top:220px;
+		cursor:pointer;}
+	.side{position:fixed;
+		width:200px;
+		background: #eee;
+		right:-200px;
+		height:100%;
+	}
+	.full{ position: fixed;
+		width:100%;
+		height:100%;
+		background: rgba(0,0,0,.5);
+		left:0;
+		top:0;
+		display:none;
+	}
+	.close1{position: absolute;
+		background: #fff;
+		padding:10px;
+		right:0;
+		top:0;
+		cursor:pointer;
+	}
+	.main{position:relative; 
+		font-size:15px;
+		width:0; height:0;
+		background: #fff;
+		padding-top:50px;
+		left:-400px;
+		top:400px;}
+	.close2{position: absolute;
+		background: #000;
+		color: #fff;
+		padding:10px;
+		cursor:pointer;
+		right:0;
+		top:0;}
+	</style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> /* 구글 CDN 이용*/ </script>
+	<script>
+		$(function(){
+			var flag=1
+			$('.btn1').click(function(){
+				flag=!flag
+				if(flag==0)
+				//$('.side').css({'right':'0'}) /* css 속성을 바꾸는 함수 */
+					$('.side').animate({'right':'0'}) /* css 바꾸고 과정까지 보여줌 */
+				else
+					$('.side').animate({'right':'-200'})
+			})
+			
+			$('.btn2').click(function(){
+				$('.full').fadeIn(500) 
+			})
+			$('.btn3').click(function(){
+				$('.main').animate({'width':'200px','height':'200px','left':'400px'}) 
+			})
+			
+			$('.close1').click(function(){
+				$('.full').fadeOut(500)
+			})
+			
+			$('.close2').click(function(){
+				$('.main').animate({'width':'0','height':'0','left':'-400px'}) 
+			})
+		})
+	</script>
+</head>
+
+<body>
+	<div class="btn1">btn1</div>
+	<div class="btn2">btn2</div>
+	<div class="btn3">btn3</div>
+	<div class="side"></div>
+	<div class="full">
+		<div class="close1">X</div>
+	</div>
+	<div class="main">
+		<p>안녕하세요. 꾸리블로그입니다.</p>
+		<div class="close2">X</div>
+	</div>
+</body>
+</html>
