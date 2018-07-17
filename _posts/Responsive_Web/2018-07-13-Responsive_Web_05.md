@@ -77,7 +77,6 @@ flex가 어떤 역할을 하는지 잘 감이 안오시죠?
 		.con p{
 			border:1px solid #000;
 			font-size:15px;
-			height:30px;
 			text-align:center;
 			background: #aaa;
 		}
@@ -189,6 +188,9 @@ FLEX-DIRECTION 속성은 flex요소를 정렬할 방향을 지정하는 속성�
 <br>
 
 ```css
+.con p{
+	height:30px;
+}
 .container1{
 	display:flex;
 }
