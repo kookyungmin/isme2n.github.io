@@ -435,7 +435,7 @@ flex-wrap은 flex 요소들을 한 줄 또는 여러 줄에 걸쳐 정렬합니�
 
 ```css
 .con p{
-	flex-basis:50%; /* flex요소의 너비를 부모의 50%로 설정 */
+	flex-basis:50%; 
 }		
 .container1{
 	display:flex;
