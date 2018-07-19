@@ -8,7 +8,8 @@ $(function(){
 		$(this).addClass('on')  // 클래스를 on으로 지정(addClass는 무조건 class 가오므로 .on으로 안해도됨
 	})
 	$('#con1').css({'display':'block'})
-	$('.menu2 li a').click(function(){ //클릭 이벤트가 발생했을 때
+	$('.menu2 li a').click(function(e){ //클릭 이벤트가 발생했을 때
+		e.preventDefault() //a를 링크로 이동안함
 		var href=this.getAttribute('href')
 		$('.main2 li').css({'display':'none'})
 		$(href).css({'display':'block'})
