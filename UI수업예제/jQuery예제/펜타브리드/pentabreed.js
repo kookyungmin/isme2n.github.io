@@ -12,8 +12,9 @@ $(function(){
 		$('.menu2 a').removeClass('on2') 
 		$(this).addClass('on2')
 		e.preventDefault() //a를 링크로 이동안함
-		var href=this.getAttribute('href')
 		$('.main2 li').css({'display':'none'})
+		var href=this.getAttribute('href')
+		alert(href)
 		$(href).css({'display':'block'})
 	
 		
