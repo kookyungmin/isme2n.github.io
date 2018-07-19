@@ -14,7 +14,7 @@ $(function(){
 		e.preventDefault() //a를 링크로 이동안함
 		$('.main2 li').css({'display':'none'})
 		var href2=this.getAttribute('href')
-		alert(href)
+		alert(href2)
 		$(href2).css({'display':'block'})
 	
 		
