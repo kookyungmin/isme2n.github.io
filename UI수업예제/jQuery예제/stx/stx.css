@@ -3,9 +3,7 @@
 	padding:0; 
 	box-sizing:border-box;
 }
-body{
-	overflow:hidden;
-}
+
 li{ list-style:none;}
 .wrap{
 	display:flex;
@@ -101,23 +99,22 @@ h1{
 }
 .content{
 	position:fixed;
-	min-width:2200px;
+	width:2200px;
 	left:160px;
-	height:100%;
 	display:flex;
+	height:100%;
 }
 .content article{
 	flex:1;
 	border: 1px solid #ddd;
+	display:flex;
+	flex-wrap:wrap;
+	height:100%;
 }
 .content img{
 	width:100%;
-	height:400px;
 }
-.content iframe{
-	width:100%;
-	height:400px;
-}
+
 .footer{
 	width:100%;
 	position:absolute;
@@ -156,4 +153,7 @@ h1{
 .footer li a{
 	display:block;
 	text-indent:-999px;
+}
+.mCSB_container{ 
+	margin-right:0 !important; /* scroll bar 사용시 margin이 들어가지므로 margin을 0으로 해주어야함 */
 }

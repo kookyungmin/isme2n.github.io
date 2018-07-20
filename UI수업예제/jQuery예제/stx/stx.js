@@ -1,4 +1,12 @@
 $(function(){
+	$('article').mCustomScrollbar() /* 스크롤바 초기화 */ 
+	$('article').mCustomScrollbar('disable')
+	$('article').mouseenter(function(){
+			$(this).mCustomScrollbar('update') /* 스크롤바 다시 나오게함 */
+	})
+	$('article').mouseleave(function(){
+		$(this).mCustomScrollbar('disable') /* 스크롤바 감추기 */
+	})
 	var count=0	
 	$('.next').click(function(e){
 		e.preventDefault
