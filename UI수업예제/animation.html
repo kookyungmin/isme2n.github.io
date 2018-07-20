@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>animation</title>
+	<link rel="stylesheet" href="reset.css">
+</head>
+<style>
+	div{
+		width: 200px;
+		height: 200px;
+		background: pink;
+		border:1px solid #000;
+		animation:boxAni 3s;
+		animation-fill-mode:forwards; /* 애니메이션이 끝나면 그대로 멈춤 */
+		animation-iteration-count: 3; /* 반복을 정해줌 infinite:무한번 */
+		animation-direction: alternate; /* 왔다갔다 하게해줌 */
+		animation-delay:2s; /* 지연시간 */
+		position:absolute;
+	}
+	@keyframes boxAni{ /*애니메이션 정의:시작점이 기준 */
+		0%{left:0} /* 시작 */
+		100%{left:80%;} /*종료 */
+	}
+</style>
+<body>
+	<div></div>
+</body>
+</html>
