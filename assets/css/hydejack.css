@@ -249,6 +249,4 @@ input[type="checkbox"]:checked ~ ul{
   height: 100%;
 }
 
-#_menu{
-  display:none !important;
-}
+
