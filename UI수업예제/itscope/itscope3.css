@@ -43,8 +43,8 @@ body{height:100%; background: url(basic_bg01.gif) 0 0 repeat;}
 /* swiper를 위한 css */
 
 .swiper-container {
-	width:976px;
-	height:618px;
+	width:300px;
+	height:300px;
 	margin-left:-50px;
 }
 .swiper-slide {
