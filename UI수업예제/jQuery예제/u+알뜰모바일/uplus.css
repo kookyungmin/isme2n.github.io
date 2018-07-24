@@ -47,6 +47,7 @@ li{
 }
 .content2 li{
 	position:absolute;
+	display:none;
 	top:470px;
 	left:40%;
 }
