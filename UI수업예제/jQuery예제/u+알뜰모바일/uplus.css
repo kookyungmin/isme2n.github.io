@@ -19,10 +19,10 @@ li{
 }
 .content li{
 	position:absolute;
-	display:none;
 }
-.on {
-	display:block !important;
+
+.on a{
+	background: orange !important;
 }
 .content li img{
 	width:100%;
@@ -47,4 +47,9 @@ li{
 	text-decoration: none;
 	background: red;
 	color:#fff;
+}
+.content2 li{
+	position:absolute;
+	top:470px;
+	left:40%;
 }
