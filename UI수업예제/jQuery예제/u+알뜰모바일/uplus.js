@@ -30,6 +30,6 @@ $(function(){
 		$('.nav li').removeClass('on')
 		$(this).addClass('on')
 		$('.content2 li').css({'display':'none'})
-		$('.content2 li').eq(activeIdx).css({'display':'block'})
+		$('.content2 li').eq(idx).css({'display':'block'})
 	})
 })
