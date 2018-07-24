@@ -6,7 +6,7 @@ $(function(){
 		$('.content li').removeClass('on');
 		$(href).addClass('on');
 	})*/
-	
+	$('.content2 li:nth-child(1)').css{'display':'block'}
 	var swiper = new Swiper('.swiper-container', {
 		autoplay: {
 			delaydelay: 2500,
