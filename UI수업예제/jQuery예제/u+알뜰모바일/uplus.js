@@ -6,7 +6,7 @@ $(function(){
 		$('.content li').removeClass('on');
 		$(href).addClass('on');
 	})*/
-	$('.content2 li:nth-child(1)').css{'display':'block'}
+	$('.content2 li:nth-child(1)').css({'display':'block'})
 	var swiper = new Swiper('.swiper-container', {
 		autoplay: {
 			delaydelay: 2500,
@@ -19,8 +19,8 @@ $(function(){
 		//alert(activeIdx)	
 		$('.nav li').removeClass('on')
 		$('.nav li').eq(activeIdx).addClass('on')
-		$('.content2 li').css{'display':'none'}
-		$('.content2 li').eq(activeIdx).css{'display':'block'}
+		$('.content2 li').css({'display':'none'})
+		$('.content2 li').eq(activeIdx).css({'display':'block'})
 	});
 	
 	// 클릭했을 때
@@ -29,7 +29,7 @@ $(function(){
 		swiper.slideTo(idx,500,false) //슬라이드 움직임
 		$('.nav li').removeClass('on')
 		$(this).addClass('on')
-		$('.content2 li').css{'display':'none'}
-		$('.content2 li').eq(activeIdx).css{'display':'block'}
+		$('.content2 li').css({'display':'none'})
+		$('.content2 li').eq(activeIdx).css({'display':'block'})
 	})
 })
