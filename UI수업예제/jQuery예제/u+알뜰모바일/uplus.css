@@ -17,14 +17,11 @@ li{
 	width:1000px;
 	margin:auto;
 }
-.content li{
-	position:absolute;
-}
 
 .on a{
 	background: orange !important;
 }
-.content li img{
+.swiper-slide img{
 	width:100%;
 	height:100%;
 }
@@ -53,3 +50,25 @@ li{
 	top:470px;
 	left:40%;
 }
+.swiper-container {
+			width: 100%;
+			margin:auto;
+}
+.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}

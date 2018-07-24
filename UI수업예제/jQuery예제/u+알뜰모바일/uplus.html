@@ -3,20 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="uplus.css">
+	<link rel="stylesheet" href="swiper.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="uplus.js"></script>
+	<script src="swiper.js"></script>
 	<title>Uplus</title>
 </head>
 <body>
+	
 	<div class="header">
 		<div class="wrap">
-			<ul class="content">
-				<li id="con1"><img src="main1.jpg" alt=""></li>
-				<li id="con2"><img src="main2.jpg" alt=""></li>
-				<li id="con3"><img src="main3.jpg" alt=""></li>
-				<li id="con4"><img src="main4.jpg" alt=""></li>
-				<li id="con5"><img src="main5.jpg" alt=""></li>
-			</ul>
+			<div class="swiper-container"> <!-- 박스 명은 무조건 이대로 써야함 -->
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="main1.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="main2.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="main3.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="main4.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="main5.jpg" alt=""></div>
+			</div>
+			
+			</div>
 			<ul class="nav">
 				<li class="on"><a href="#con1">홈플러스 요금제</a></li>
 				<li><a href="#con2">유심요금제 평생할인</a></li>
