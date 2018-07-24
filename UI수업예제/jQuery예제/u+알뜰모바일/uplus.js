@@ -1,5 +1,5 @@
 $(function(){
-	/* href¸¦ °¡Á®¿Í ±¸Çö 
+	/* hrefë¥¼ ê°€ì ¸ì™€ êµ¬í˜„ 
 		$('.nav li a').click(function(e){
 		e.preventDefault();
 		var href=$(this).attr('href');
@@ -13,23 +13,23 @@ $(function(){
 			disableOnInteraction: false,
 		 },
 	})
-	//swiper change ¸Ş¼­µå	
+	//swiper change ë©”ì„œë“œ	
 	swiper.on('slideChange', function () {
 		var activeIdx=swiper.activeIndex
 		//alert(activeIdx)	
 		$('.nav li').removeClass('on')
 		$('.nav li').eq(activeIdx).addClass('on')
-		$('.content2 li').fadeOut()
-		$('.content2 li').eq(activeIdx).fadeIn()
+		$('.content2 li').css{'display':'none'}
+		$('.content2 li').eq(activeIdx).css{'display':'block'}
 	});
 	
-	// Å¬¸¯ÇßÀ» ¶§
+	// í´ë¦­í–ˆì„ ë•Œ
 	$('.nav li').click(function(){
 		var idx=$(this).index()
-		swiper.slideTo(idx,500,false) //½½¶óÀÌµå ¿òÁ÷ÀÓ
+		swiper.slideTo(idx,500,false) //ìŠ¬ë¼ì´ë“œ ì›€ì§ì„
 		$('.nav li').removeClass('on')
 		$(this).addClass('on')
-		$('.content2 li').fadeOut()
-		$('.content2 li').eq(idx).fadeIn()
+		$('.content2 li').css{'display':'none'}
+		$('.content2 li').eq(activeIdx).css{'display':'block'}
 	})
 })
