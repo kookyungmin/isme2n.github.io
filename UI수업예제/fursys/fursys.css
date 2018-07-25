@@ -1,3 +1,8 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -7,10 +12,16 @@ body {
     margin: 0;
     padding: 0;
 }
+.wrap{
+	position: relative;
+	width: 750px;
+    height: 600px;
+	margin:auto;
+}
 .swiper-container {
 	background: #fff;
-    width: 800px;
-    height: 600px;
+    width:100%;
+	height:100%;
 }
 .swiper-slide {
     text-align: center;
@@ -48,27 +59,76 @@ body {
 .swiper-slide:nth-child(6){
 	background: url(main6.png) no-repeat;
 }
-
-.swiper-pagination-bullet{
+.nav{
+	position:absolute;
+	left:-50px;
+	top:0;
+	z-index:333;
+}
+.nav li{
+	list-style:none;
+}
+.nav li a{
 	width:50px;
 	height:50px;
-	border-radius:0;
+	display:block;
 }
-.swiper-pagination-bullet:nth-child(1){
+.nav li:nth-child(1) a{
 	background: url(nav1_on.jpg);
 }
-.swiper-pagination-bullet:nth-child(2){
+.nav li:nth-child(1):hover a{
+	background: url(nav1_off.jpg);
+}
+.nav li:nth-child(1).on a{
+	background: url(nav1_off.jpg);
+}
+
+.nav li:nth-child(2) a{
 	background: url(nav2_on.jpg);
 }
-.swiper-pagination-bullet:nth-child(3){
+.nav li:nth-child(2):hover a{
+	background: url(nav2_off.jpg);
+}
+.nav li:nth-child(2).on a{
+	background: url(nav2_off.jpg);
+}
+
+.nav li:nth-child(3) a{
 	background: url(nav3_on.jpg);
 }
-.swiper-pagination-bullet:nth-child(4){
+.nav li:nth-child(3):hover a{
+	background: url(nav3_off.jpg);
+}
+.nav li:nth-child(3).on a{
+	background: url(nav3_off.jpg);
+}
+
+.nav li:nth-child(4) a{
 	background: url(nav4_on.jpg);
 }
-.swiper-pagination-bullet:nth-child(5){
+.nav li:nth-child(4):hover a{
+	background: url(nav4_off.jpg);
+}
+.nav li:nth-child(4).on a{
+	background: url(nav4_off.jpg);
+}
+
+.nav li:nth-child(5) a{
 	background: url(nav5_on.jpg);
 }
-.swiper-pagination-bullet:nth-child(6){
+.nav li:nth-child(5):hover a{
+	background: url(nav5_off.jpg);
+}
+.nav li:nth-child(5).on a{
+	background: url(nav5_off.jpg);
+}
+
+.nav li:nth-child(6) a{
 	background: url(nav6_on.jpg);
+}
+.nav li:nth-child(6):hover a{
+	background: url(nav6_off.jpg);
+}
+.nav li:nth-child(6).on a{
+	background: url(nav6_off.jpg);
 }
