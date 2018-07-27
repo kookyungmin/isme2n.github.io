@@ -4,7 +4,7 @@ title: IoT_Curriculum
 slug: IoT_Curriculum
 menu: true
 submenu: true
-order: 2
+order: 5
 description: >
-  '자바기반의 IoT 개발자 과정'의 내용을 포스팅하는 곳입니다~! 
+  IoT에 관해 포스팅하는 곳입니다!
 ---
