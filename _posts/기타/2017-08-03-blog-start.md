@@ -8,7 +8,7 @@ subtitle: "블로그 포스팅 시작"
 
 date:   2017-08-03 04:59:00 -0500
 
-categories: Study
+categories: Review
 
 tags: blog
 
