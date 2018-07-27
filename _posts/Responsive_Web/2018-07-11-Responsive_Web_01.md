@@ -2,13 +2,13 @@
 
 layout: post
 
-title:  "[IoT_반응형 웹] 1.반응형 웹 개요"
+title:  "[반응형 웹] 1.반응형 웹 개요"
 
-subtitle: "[IoT_반응형 웹] 1.반응형 웹 개요"
+subtitle: "[반응형 웹] 1.반응형 웹 개요"
 
 date:   2018-07-11 09:00:20 -0500
 
-categories: IoT_Curriculum
+categories: Web
 
 tags: responsive_web
 

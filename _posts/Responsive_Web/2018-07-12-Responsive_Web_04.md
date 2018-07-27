@@ -2,13 +2,13 @@
 
 layout: post
 
-title:  "[IoT_반응형 웹] 4.실습:TechCrunch"
+title:  "[반응형 웹] 4.실습:TechCrunch"
 
-subtitle: "[IoT_반응형 웹] 4.실습:TechCrunch"
+subtitle: "[반응형 웹] 4.실습:TechCrunch"
 
 date:   2018-07-12 09:00:20 -0500
 
-categories: IoT_Curriculum
+categories: Web
 
 tags: responsive_web
 

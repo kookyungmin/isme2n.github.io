@@ -2,13 +2,13 @@
 
 layout: post
 
-title:  "[IoT_반응형 웹] 7.Flex Layout"
+title:  "[반응형 웹] 7.Flex Layout"
 
-subtitle: "[IoT_반응형 웹] 7.Flex Layout"
+subtitle: "[반응형 웹] 7.Flex Layout"
 
 date:   2018-07-15 09:00:20 -0500
 
-categories: IoT_Curriculum
+categories: Web
 
 tags: responsive_web
 
