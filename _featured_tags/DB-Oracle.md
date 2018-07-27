@@ -2,9 +2,9 @@
 layout: list
 title: Oracle
 slug: oracle
-category: IoT_Curriculum
+category: DB
 menu: false
-order: 9
+order: 1
 description: >
  oracle에 대한 포스팅
 ---
