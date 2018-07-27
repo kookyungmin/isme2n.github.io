@@ -2,9 +2,9 @@
 layout: list
 title: tensorflow
 slug: tensorflow
-category: Study
+category: Language
 menu: false
-order: 2
+order: 1
 description: >
  [참고] [모두를 위한 머신러닝/딥러닝 강의](http://hunkim.github.io/ml/)
 ---

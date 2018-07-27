@@ -2,7 +2,7 @@
 layout: list
 title: Blog
 slug: blog
-category: Study
+category: Review
 menu: false
 order: 1
 description: >

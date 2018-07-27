@@ -2,7 +2,7 @@
 layout: list
 title: matlab
 slug: matlab
-category: Study
+category: Language
 menu: false
 order: 5
 description: >
