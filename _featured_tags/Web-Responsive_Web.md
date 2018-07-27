@@ -2,9 +2,9 @@
 layout: list
 title: Responsive_Web
 slug: responsive_web
-category: IoT_Curriculum
+category: Web
 menu: false
-order: 7
+order: 4
 description: >
   반응형 웹 구현을 위한 실습
 ---

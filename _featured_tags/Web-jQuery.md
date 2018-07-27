@@ -2,9 +2,9 @@
 layout: list
 title: jQuery
 slug: jquery
-category: IoT_Curriculum
+category: Web
 menu: false
-order: 8
+order: 5
 description: >
   jquery 개념 및 실습<br>
   [참고사이트] <br>
