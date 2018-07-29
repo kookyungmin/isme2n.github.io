@@ -141,7 +141,7 @@ M차 B-tree의 특성은 다음과 같습니다.
 <br>
 <br>
 
-<a href="https://www.cs.usfca.edu/~galles/visualization/BTree.html">https://www.cs.usfca.edu</a>
+<a href="https://www.cs.usfca.edu/~galles/visualization/BTree.html">https://www.cs.usfca.edu/~galles/visualization/BTree.html</a>
 
 <br>
 <br>
