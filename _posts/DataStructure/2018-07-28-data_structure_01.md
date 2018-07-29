@@ -356,6 +356,21 @@ CASE:1-(c) 13를 삭제
 <br>
 <br>
 <br>
+이번에는 내부노드가 삭제되는 과정을 살펴보겠습니다!
+<br>
+<br>
+5차 B-tree가 다음과 같이 있다고 합시다!
+<br>
+<br>
+<br>
+
+![image](/image/DataStruc_img/DataStruc_img20.png)
+
+<br>
+<br>
+<br>
+<br>
+
 CASE:2-(a) 16 을 삭제
 <br>
 <br>
