@@ -141,11 +141,11 @@ M차 B-tree의 특성은 다음과 같습니다.
 <br>
 <br>
 
-<a href="https://www.cs.usfca.edu/~galles/visualization/BTree.html">https://www.cs.usfca.edu</a>
+<a href="https://www.cs.usfca.edu/~galles/visualization/BTree.html">https://www.cs.usfca.edu/~galles/visualization/BTree.html</a>
 
 <br>
 <br>
-3차 B-트리에 1부타 10까지 삽입해 보겠습니다. (tree의 degree는 4)
+3차 B-트리에 1부터 10까지 삽입해 보겠습니다. (tree의 degree는 4)
 <br>
 <br>
 <br>
@@ -236,11 +236,14 @@ M차 B-tree의 특성은 다음과 같습니다.
 B-트리의 삭제규칙은 다음과 같습니다. (홀수차수 B-트리)
 <br>
 <br>
+<br>
+<br>
 
 CASE-1: 삭제하는 키 값이 존재하는 node가 leaf node인 경우
 
 <br>
 <br>
+
 - (a) 키를 삭제 후에도 node의 자료수가 ┖M/2┙이상이면 그냥 키를 삭제한다.
 
 <br>
@@ -270,7 +273,10 @@ CASE-2: 삭제하는 키 값이 존재하는 node가 internal node인 경우
 
 - (b)대체키로 키 값을 바꾸는 과정에서 case 1을 이용해 적절히 처리해준다.  
 
-
+<br>
+<br>
+<br>
+<br>
 예를 들어 다음과 같은 5차 B-tree가 있다고 합시다!
 <br>
 <br>
