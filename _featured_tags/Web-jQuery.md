@@ -10,6 +10,6 @@ description: >
   [참고사이트] <br>
   <a href="https://www.w3schools.com/jquery/default.asp">www.w3schools.com</a><br>
   <a href="http://tcpschool.com/jquery/intro">www.tcpschool.com</a><br>
-  <a href="http://heopoint.com/index.php/2018/02/23/jquery-2/">heopoint.com</a>
+  <a href="http://heopoint.com/index.php/2018/06/06/selector-2/">heopoint.com</a>
 ---
 
