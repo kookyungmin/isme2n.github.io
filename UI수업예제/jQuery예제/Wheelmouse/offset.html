@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>offset</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style>
+		body{
+			height:3000px;
+		}
+		div{
+			position:absolute;
+			width:200px;
+			height:200px;
+			background:#eff;
+			left:300px;
+			top:200px;
+		}
+		.scroll{
+			font-size:50px;
+			position:fixed;
+			left:10px;
+			top:200px;
+			opacity:0.3;
+		}
+	</style>
+	<script>
+		$(function(){
+			var x=$('div').offset().top //세션의 높이를 읽어들임
+			var y=$('div').offset().left 
+			
+			$('.xpos').text(x) //텍스트 변경
+			$('.ypos').text(y)
+			
+			var h=$(window).height() //윈도우의 높이를 읽어들임
+			$('.window span').text(h)
+			
+			$(window).scroll(function(){ //스크롤의 위치를 읽어들임
+				var scrT=$(window).scrollTop() 
+				$('.scroll span').text(scrT)
+				
+			})
+		})
+	</script>
+</head>
+<body>
+	<div></div>
+	<p>X 위치: <span class="xpos">0</span></p>
+	<p>Y 위치: <span class="ypos">0</span></p>
+	
+	<h1 class="window">윈도우 높이: <span>0</span></h1>
+	<h1 class="scroll">스크롤 탑 위치: <span>0</span></h1>
+</body>
+</html>
