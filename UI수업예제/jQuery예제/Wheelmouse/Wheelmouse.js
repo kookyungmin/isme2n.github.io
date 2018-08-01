@@ -3,7 +3,7 @@ $(function(){
 		$('.nav li').removeClass('on');
 		$(this).addClass('on');
 		
-		var href=$(this).children('a').attr('href'); //id 값 가져옴
+		var href=$(this).attr('id'); //id 값 가져옴
 		
 		//가져온 id의 위치를 스크롤 탑으로 변경(stop은 똑같은 것 클릭 계속해도 한번만 실행되게함)
 		$('html,body').stop().animate({scrollTop:$(href).offset().top},500,'easeOutBounce')
