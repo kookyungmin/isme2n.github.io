@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Note
-slug: Note
+slug: S_Note
 category: Server
 menu: false
 order: 1

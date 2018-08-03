@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Note
-slug: Note
+slug: D_Note
 category: Deployment
 menu: false
 order: 1
