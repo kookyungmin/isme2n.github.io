@@ -12,6 +12,6 @@ description: >
   <a href="http://tcpschool.com/jquery/intro">www.tcpschool.com</a><br>
   <a href="http://heopoint.com/index.php/2018/06/06/selector-2/">heopoint.com</a><br>
   <a href="http://codepen.io">codepen.io</a><br>
-  <a href="https://poiemaweb.com/">poiemaweb.com/</a>
+  <a href="https://poiemaweb.com/">poiemaweb.com</a>
 ---
 
