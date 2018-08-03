@@ -2,9 +2,9 @@
 layout: list
 title: basis
 slug: basis
-category: IoT_Curriculum
+category: Study
 menu: false
-order: 2
+order: 1
 description: >
   응용 SW 에 대한 기초 지식
 ---
