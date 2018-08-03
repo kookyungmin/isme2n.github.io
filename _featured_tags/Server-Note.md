@@ -1,7 +1,7 @@
 ---
 layout: list
-title: 강의노트
-slug: 강의노트
+title: Note
+slug: Note
 category: Server
 menu: false
 order: 1
