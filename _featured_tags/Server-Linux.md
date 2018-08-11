@@ -2,7 +2,7 @@
 layout: list
 title: Linux
 slug: linux
-category: Deployment
+category: Server
 menu: false
 order: 3
 description: >
