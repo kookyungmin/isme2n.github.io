@@ -2,7 +2,7 @@
 layout: list
 title: Note
 slug: note
-category: Test
+category: test
 menu: false
 order: 2
 description: >

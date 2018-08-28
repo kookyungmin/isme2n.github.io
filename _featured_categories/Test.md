@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Web
-slug: Web
+title: Test
+slug: test
 menu: true
 submenu: true
 order: 7
