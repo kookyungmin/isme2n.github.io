@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Arduino
-slug: arduino
+slug: Arduino
 menu: true
 order: 9
 description: >
