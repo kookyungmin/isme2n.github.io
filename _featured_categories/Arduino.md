@@ -3,7 +3,7 @@ layout: list
 title: Arduino
 slug: arduino
 menu: true
-order: 10
+order: 9
 description: >
   아두이노 과정
 ---
