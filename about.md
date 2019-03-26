@@ -39,5 +39,5 @@ email: rudals4549@naver.com
 - NCS 과정 "아두이노를 활용한 자바기반의 사물인터넷 개발자 " 과정 이수 (2018.04 - 2018.10)
 <br>
 <br>
-- Node.js 기반 express, ember.js , electron.js 으로 그룹웨어 메신저 Amessenger 개발 (2018.12 - 2018.03)
+- Node.js 기반 express, ember.js , electron.js 으로 그룹웨어 메신저 Amessenger 개발 (2018.12 - 2019.03)
       
