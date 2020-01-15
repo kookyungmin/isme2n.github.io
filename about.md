@@ -20,7 +20,7 @@ order: 1
 
 거주지: 서울
 
-나이 : 27
+나이 : 28
 
 대학: 서울시립대학교 졸업
 
@@ -32,6 +32,9 @@ email: rudals4549@naver.com
 
 자격증: 정보처리기사
 
+직장: Indiflex 개발팀장 (재직중)
+
+
 기타 : 
 - 삼성 SCSC 이수 (2015.03-2017.12) 
 <br>
@@ -40,4 +43,12 @@ email: rudals4549@naver.com
 <br>
 <br>
 - Node.js 기반 express, ember.js , electron.js 으로 그룹웨어 메신저 Amessenger 개발 (2018.12 - 2019.03)
-      
+<br>
+<br>
+- 실시간 모니터링, 음악 콘텐츠 인식 및 저작권 분석 솔루션 Styx 벡엔드 및 프론트엔드 개발(Node.js, Ember.js), Mfcc,CNN를 활용한 음성/음악인식 딥러닝 솔루션 Sift 자체 모델링 및 학습, 서버 개발(flask) (2019.04 - 2019.09)
+<br>
+<br>
+- 대부 전산 시스템 LMS 벡엔드 및 프론트엔드 개발 (2019.09 - 2019.12)
+<br>
+<br>
+- 서버리스 플랫폼 BerryService 벡엔드 및 프론트엔드 개발 (2020.01 ~)
