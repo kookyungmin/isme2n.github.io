@@ -32,7 +32,7 @@ email: rudals4549@naver.com
 
 자격증: 정보처리기사
 
-직장: Indiflex 개발팀장 (2018.12-현재)
+직장: Indiflex co-founder (2018.12-현재)
 
 
 기타 : 
