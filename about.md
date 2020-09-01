@@ -52,8 +52,6 @@ email: rudals4549@naver.com
 <br>
 
 - 실시간 모니터링, 음악 콘텐츠 인식 및 저작권 분석 솔루션 Styx 백엔드 및 프론트엔드 개발(Node.js, Ember.js), 
-<br>
-<br>
 MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데이터 전처리 및 학습, 서버 개발(flask) (2019.04 - 2019.10)
 
 <br>
@@ -78,4 +76,8 @@ MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데�
 <br>
 <br>
 
-
+오픈소스 기여 경험 :
+- Ember.js : emberjs/data fetch option 소스 수정 및 테스트 작성
+https://github.com/emberjs/data/pull/7285
+(Feature:Allow fetch to accept credentials #7285)
+해당 설명 : https://www.happykoo.net/@happykoo/posts/196
