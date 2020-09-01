@@ -37,30 +37,44 @@ email: rudals4549@naver.com
 
 기타 : 
 - 삼성 SCSC 이수 (2015.03-2017.12) 
+
 <br>
 <br>
+
 - NCS 과정 "아두이노를 활용한 자바기반의 사물인터넷 개발자 " 과정 이수 (2018.04 - 2018.10)
+
 <br>
 <br>
+
 - Node.js 기반 express, ember.js , electron.js 으로 그룹웨어 메신저 Amessenger 개발 (2018.12 - 2019.03)
+
 <br>
 <br>
+
 - 실시간 모니터링, 음악 콘텐츠 인식 및 저작권 분석 솔루션 Styx 백엔드 및 프론트엔드 개발(Node.js, Ember.js), 
 <br>
 <br>
 MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데이터 전처리 및 학습, 서버 개발(flask) (2019.04 - 2019.10)
+
 <br>
 <br>
+
 - 대부 전산 시스템 LMS 백엔드 및 프론트엔드 개발 (2019.10 - 2019.12)
 <br>
 <br>
+
 - 보이는 ARS 전자 출입 명부 Callee KI-PASS 백엔드 및 프론트엔드 개발(2020.07)
+
 <br>
 <br>
+
 - 보이는 ARS 주문 시스템 CalleeOrder 백엔드 및 프론트엔드 개발(2020.06 ~)
+
 <br>
 <br>
+
 - 서버리스 플랫폼 BerryService 백엔드 및 프론트엔드 개발 (2020.01 ~)
+
 <br>
 <br>
 
