@@ -32,8 +32,6 @@ email: rudals4549@naver.com
 
 자격증: 정보처리기사
 
-직장: Indiflex (Co-founder) (2018.12-현재)
-
 
 기타 : 
 - 삼성 SCSC 이수 (2015.03-2017.12) 
