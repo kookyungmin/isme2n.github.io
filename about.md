@@ -42,10 +42,6 @@ email: rudals4549@naver.com
 <br>
 <br>
 
-실무 이력:
-<br>
-<br>
-
 ### 인디 플렉스 [개발팀장] (2018.12 - 2020.09)
 
 - Node.js 기반 express, ember.js , electron.js 으로 그룹웨어 메신저 Amessenger 개발 (2018.12 - 2019.03)
@@ -73,9 +69,12 @@ MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데�
 <br>
 <br>
 
-### 플랜잇 파트너스 헬스케어사업부 [백엔드 개발] (2020.10 ~ )
+## 플랜잇 파트너스 헬스케어사업부 [백엔드 개발] (2020.10 ~ )
 
-### 오픈소스 기여 경험
+<br>
+<br>
+
+## 오픈소스 기여 경험
 
 - Ember.js : emberjs/data fetch option 소스 수정 및 테스트 작성
 <br>
