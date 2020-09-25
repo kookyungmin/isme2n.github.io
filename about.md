@@ -42,7 +42,7 @@ email: rudals4549@naver.com
 <br>
 <br>
 
-실무 이력
+실무 이력:
 <br>
 <br>
 
@@ -79,8 +79,7 @@ MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데�
 <br>
 
 # 오픈소스 기여 경험
-<br>
-<br>
+
 - Ember.js : emberjs/data fetch option 소스 수정 및 테스트 작성
 <br>
 https://github.com/emberjs/data/pull/7285
