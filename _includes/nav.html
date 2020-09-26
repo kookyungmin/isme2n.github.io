@@ -9,18 +9,20 @@
   {% assign subpages = pages | where: "menu", false | sort: "order" %}
   {% assign pages = pages | where: "menu", true | sort: "order" %}
   {% assign count = 0%}
+  <li>
+    <div  class="list-wrapper">
+      <a class="sidebar-nav-item" href="https://www.happykoo.net">NewBlog</a>
+    </div>
+  </li>
   {% for node in pages %}
   {% assign count = count | plus: 1 %}
     <li>
       <input type="checkbox" id="list-item-{{ count }}"/>
       <div  class="list-wrapper">
-      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
-       {% if node.submenu %}<label class="folder" for="list-item-{{ count }}">▾</label>{% endif %}
-    </div>
+        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
+         {% if node.submenu %}<label class="folder" for="list-item-{{ count }}">▾</label>{% endif %}
+      </div>
      <ul class="list-body">
-       <li>
-         <a class="sidebar-nav-subitem" href="https://www.happykoo.net">New Blog</a>
-       </li>
        {% for subnode in subpages %}
            {% if subnode.category == node.slug %}
              <li>
