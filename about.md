@@ -82,6 +82,9 @@ MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데�
 그룹웨어 메신저 Amessenger 백엔드 및 프론트엔드 개발 (2018.12 - 2019.04)
 [주 사용기술] node.js, ember.js, electron.js, apache, mysql, redis
 
+<br>
+<br>
+
 ## 플랜잇 파트너스 헬스케어사업부 [백엔드 개발] (2020.10 ~ )
 
 <br>
