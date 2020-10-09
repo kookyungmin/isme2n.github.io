@@ -46,30 +46,36 @@ email: rudals4549@naver.com
 
 <br>
 
-- Node.js 기반 express, ember.js , electron.js 으로 그룹웨어 메신저 Amessenger 개발 (2018.12 - 2019.03)
+- 서버리스 플랫폼 BerryService 백엔드 및 프론트엔드 개발 (2020.01 ~ 2020.09)
+[주 사용기술] node.js, ember.js, vue.js, elasticsearch, mysql, mysql Xdev, redis, nginx, PWA, docker
+
 <br>
 <br>
 
-- 실시간 모니터링, 음악 콘텐츠 인식 및 저작권 분석 솔루션 Styx 백엔드 및 프론트엔드 개발(Node.js, Ember.js), 
-MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데이터 전처리 및 학습, 서버 개발(flask) (2019.04 - 2019.10)
+- 보이는 ARS 주문 시스템 CalleeOrder 백엔드 및 프론트엔드 개발 (2020.06 ~ 2020.09)
+[주 사용기술] node.js, ember.js, mysql, redis, nginx, PWA
+
+<br>
+<br>
+
+- 보이는 ARS 전자 출입 명부 Callee KI-PASS 백엔드 및 프론트엔드 개발 (2020.07)
+[주 사용기술] node.js, ember.js, mysql, redis, nginx, PWA
 <br>
 <br>
 
 - 대부 전산 시스템 LMS 백엔드 및 프론트엔드 개발 (2019.10 - 2019.12)
+[주 사용기술] node.js, ember.js, mysql, nginx
 <br>
 <br>
 
-- 보이는 ARS 전자 출입 명부 Callee KI-PASS 백엔드 및 프론트엔드 개발(2020.07)
+- 실시간 모니터링, 음악 콘텐츠 인식 및 저작권 분석 솔루션 Styx 백엔드 및 프론트엔드 개발,
+MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데이터 전처리 및 학습, 백엔드 개발 (2019.05 - 2019.10)
+[주 사용기술] node.js, ember.js, flask, tensorflow, keras, librosa, scipy, ffmpeg, apache, mysql, redis
 <br>
 <br>
 
-- 보이는 ARS 주문 시스템 CalleeOrder 백엔드 및 프론트엔드 개발(2020.06 ~ 2020.09)
-<br>
-<br>
-
-- 서버리스 플랫폼 BerryService 백엔드 및 프론트엔드 개발 (2020.01 ~ 2020.09)
-<br>
-<br>
+- 그룹웨어 메신저 Amessenger 백엔드 및 프론트엔드 개발 (2018.12 - 2019.04)
+[주 사용기술] node.js, ember.js, electron.js, apache, mysql, redis
 
 ## 플랜잇 파트너스 헬스케어사업부 [백엔드 개발] (2020.10 ~ )
 
@@ -82,8 +88,9 @@ MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데�
 
 - Ember.js : emberjs/data fetch option 소스 수정 및 테스트 작성
 <br>
-https://github.com/emberjs/data/pull/7285
+<a href="https://github.com/emberjs/data/pull/7285">https://github.com/emberjs/data/pull/7285</a>
+
 <br>
 (Feature:Allow fetch to accept credentials #7285)
 <br>
-해당 설명 : https://www.happykoo.net/@happykoo/posts/196
+해당 설명 : <a href="https://www.happykoo.net/@happykoo/posts/196">https://www.happykoo.net/@happykoo/posts/196</a>
