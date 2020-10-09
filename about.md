@@ -47,29 +47,34 @@ email: rudals4549@naver.com
 <br>
 
 - 서버리스 플랫폼 BerryService 백엔드 및 프론트엔드 개발 (2020.01 ~ 2020.09)
+<br>
 [주 사용기술] node.js, ember.js, vue.js, elasticsearch, mysql, mysql Xdev, redis, nginx, PWA, docker
 
 <br>
 <br>
 
 - 보이는 ARS 주문 시스템 CalleeOrder 백엔드 및 프론트엔드 개발 (2020.06 ~ 2020.09)
+<br>
 [주 사용기술] node.js, ember.js, mysql, redis, nginx, PWA
 
 <br>
 <br>
 
 - 보이는 ARS 전자 출입 명부 Callee KI-PASS 백엔드 및 프론트엔드 개발 (2020.07)
+<br>
 [주 사용기술] node.js, ember.js, mysql, redis, nginx, PWA
 <br>
 <br>
 
 - 대부 전산 시스템 LMS 백엔드 및 프론트엔드 개발 (2019.10 - 2019.12)
+<br>
 [주 사용기술] node.js, ember.js, mysql, nginx
 <br>
 <br>
 
 - 실시간 모니터링, 음악 콘텐츠 인식 및 저작권 분석 솔루션 Styx 백엔드 및 프론트엔드 개발,
 MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데이터 전처리 및 학습, 백엔드 개발 (2019.05 - 2019.10)
+<br>
 [주 사용기술] node.js, ember.js, flask, tensorflow, keras, librosa, scipy, ffmpeg, apache, mysql, redis
 <br>
 <br>
