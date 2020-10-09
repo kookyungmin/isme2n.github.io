@@ -96,9 +96,9 @@ MFCC,CNN를 활용한 음성/음악인식 솔루션 Sift 자체 모델링, 데�
 
 - Ember.js : emberjs/data fetch option 소스 수정 및 테스트 작성
 <br>
-<a href="https://github.com/emberjs/data/pull/7285">https://github.com/emberjs/data/pull/7285</a>
+<a href="https://github.com/emberjs/data/pull/7285" target="_blank">https://github.com/emberjs/data/pull/7285</a>
 
 <br>
 (Feature:Allow fetch to accept credentials #7285)
 <br>
-해당 설명 : <a href="https://www.happykoo.net/@happykoo/posts/196">https://www.happykoo.net/@happykoo/posts/196</a>
+해당 설명 : <a href="https://www.happykoo.net/@happykoo/posts/196" target="_blank">https://www.happykoo.net/@happykoo/posts/196</a>
